@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Shazam</title>
+    <style>
+        *{
+            font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+        }
+        #tracklist h3,
+        #tracklist p{
+            margin: 0;
+        }
+
+        #tracklist li{
+            margin-bottom: 20px;
+            border-bottom: 1px solid #f4f4f4;
+            padding-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="content">
+        <ul id="tracklist"></ul>
+        <div>
+            <span class="btn-prev">voltar</span>
+            <div class="tracks_pages"></div>
+            <span class="btn-next">avancar</span>
+        </div>
+    </div>
+    <script   src="https://code.jquery.com/jquery-1.12.1.min.js" integrity="sha256-I1nTg78tSrZev3kjvfdM5A5Ak/blglGzlaZANLPDl3I=" crossorigin="anonymous"></script>
+    <script src="js/mustache.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
